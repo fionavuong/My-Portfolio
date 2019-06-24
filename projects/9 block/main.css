@@ -1,0 +1,13 @@
+.block {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%
+  }
+  .plum {
+    background-color: plum;
+  }
+  .lightsteelblue {
+    background-color: lightsteelblue;
+  }
+  .
