@@ -4,12 +4,12 @@
    </body>
 <script>
 var numbers = number;
-Math.floor(Math.random() * 20); // Create a variable that holds the RANDOM number between 1-20
+Math.floor(Math.random() * 20) + 1;// Create a variable that holds the RANDOM number between 1-20
 
 // Part 2: Create variable that holds the number of turns
 
 // Create a variable for your "hint to the user" Ex: Guess my number between 1-20
-
+var hint = 'Guess my number from 1-20!'
 // when is true != true?  What should our condition actually be?
 
 while (true == true) {
@@ -17,12 +17,17 @@ while (true == true) {
 // Use the prompt method to ask the user for input. Use this to also display the "hint to the user"
 // Part 2: Also display how many tries the user has left
 
-var guess = prompt(PUT YOUR HINT VARIABLE HERE);
+var guess = prompt(hint);
 var num1 = Number (guess);
 if (guess === 'numbers') {
-   console.log('Yayyyy... You guessed my number smarty pants!!!' ) : 
-   console.log('Oops... WRONG NUMBER! Try again! :)');
+   {'Yayyyy... You guessed my number smarty pants!!!' : 
+   }
 }
+   else { 
+      if (  number)
+      console.log('Oops... Wrong number. Try again! :)');
+} 
+  
 
 // Convert the users guess to a number
 
@@ -39,4 +44,4 @@ if (guess === 'numbers') {
 
 
    </script>
-</html>`
+</html>
